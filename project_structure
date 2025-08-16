@@ -1,0 +1,23 @@
+Banking_System/
+│
+├── src/
+│   ├── Main.java               # Entry point
+│   │
+│   ├── database/
+│   │   └── DbConnection.java   # Handles MySQL connection
+│   │
+│   ├── models/
+│   │   └── Account.java        # Represents a bank account
+│   │   
+│   │
+│   ├── services/
+│   │   └── AccountService.java # Logic for creating/depositing/withdrawing
+│   │ 
+│   │
+│   ├
+│   └── menus/
+│       └── MenuHandler.java    # Displays menus & routes options
+│
+├── lib/                        #  External .jar files ( MySQL JDBC driver)
+│
+└── README.md                   # Project description
